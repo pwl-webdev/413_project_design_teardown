@@ -1,4 +1,169 @@
 html, body{
 	width: 100%;
-	background: yellow;
+	height: 100%;
+}
+.l_container{
+	float:left;
+	width: 10%;
+	/*background-color: orange;*/
+	height: 100%;
+	margin-top: 111px;
+}
+.main_content{
+	float:left;
+	width: 66%;
+	/*background-color: red; */
+	/*height: 100%;*/
+	margin-top: 111px;
+	overflow: auto;
+}
+.r_container{
+	float:right;
+	width: 24%;
+	/*background-color: blue;*/
+	/*height: 100%;*/
+	margin-top: 11px;
+}
+.menu{
+	width: 100%;
+	background-color: rgb(220,220,220);
+	box-sizing: border-box;
+	border-radius: 2px;
+	border: 1px solid white;
+	height: 70px;
+}
+.r_maincontent{
+	float:right;
+}
+.l_maincontent{
+	float:left;
+	width: 200px;
+	margin-left: 3.3%;
+
+}
+.submenu{
+	display:block;
+	width: 100%;
+	height: 185px;
+	margin-bottom: 42px;
+	background-color: rgb(200,200,200);
+}
+.submenu .first{
+	height: 20%;
+	width: 100%;
+	background-color: rgb(170,170,170);
+}
+
+.banner{
+	width: 750px;
+	height: 200px;
+	margin: 0px 105px 20px 105px;
+	background-color: rgb(100,100,100);
+}
+.article{
+	width: 750px;
+	height: 1250px;
+	margin: 0 105px 110px 105px;
+	/*background-color: rgb(230, 230, 230);*/
+}
+.article h2{
+	height: 150px;
+	width: 100%;
+	background-color: rgb(50,50,50);
+}
+.article h3{
+	height: 70px;
+	width: 50%;
+	margin: 15px 0;
+	background-color: rgb(120,120,120);
+}
+.article h4{
+	height: 52px;
+	width: 75%;
+	margin: 30px 0 10px 0;
+	background-color: rgb(170,170,170);
+}
+.article h5{
+	height: 52px;
+	width: 40%;
+	margin: 30px 0 50px 0;
+	background-color: rgb(170,170,170);
+}
+.article p{
+	width: 100%;
+	height: 800px;
+	background-color: rgb(200,200,200);	
+}
+.searchbar{
+	width: 400px;
+	height: 48px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	background-color: rgb(210,210,210);
+}
+[class*="side"]{
+	width: 425px;
+	margin-left: 0;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	background-color: rgb(220,220,220);	
+}
+.side1{
+	height: 350px;
+	margin-top: 70px;
+}
+.side2{
+	height: 950px;
+	margin-top: 30px;
+}
+.side3{
+	height: 150px;
+	margin-top: 30px;
+}
+.side4{
+	height: 550px;
+	margin-top: 30px;
+}
+h1, h2, h3, h4, h5, p, .menu, .first{
+	font-family: "Merriweather";
+	color: white;	
+}
+h1{
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 27px;
+	padding: 20px 30px;
+}
+h2{
+	font-size: 37px;
+	font-weight: 700;
+	line-height: 48px;
+}
+h3 {
+	font-size: 29px;
+	font-weight: 400;
+	line-height: 60px;
+	margin-top: 15px;
+}
+h4, h5{
+	font-size: 21px;
+	line-height: 45px;
+}
+p{
+	font-size: 26px;
+	line-height: 37px;
+	padding: 20px 0;
+}
+.menu{
+	font-size: 19px;
+	line-height: 60px;
+}
+.first{
+	font-size: 19px;
+	font-weight: 700;
+	line-height: 35px;
+	text-transform: uppercase;
 }
